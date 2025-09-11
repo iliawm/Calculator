@@ -1,0 +1,188 @@
+.wholepage{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color:hsl(222, 26%, 31%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.CalcCont{
+    position: relative;
+    width:30vw;
+    height: 70%;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    min-width: 280px;
+    gap: 5%;
+}
+.conTop{
+    position: relative;
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 30%;
+    border-radius:inherit ;
+}
+.Ttop{
+    position: relative;
+    height: 40%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.title{
+    position: relative;
+    margin: 0;
+    font-size: 20px;
+    display: inline-block;
+}
+.togglestyle{
+    position: relative;
+    width: fit-content;
+    display: inline-block;
+}
+.Tbottom{
+    position: relative;
+    height: 60%;
+    /* border: 1px solid red; */
+    background-color:hsl(224, 36%, 15%) ;
+    border-radius:10px;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;    
+}
+.conBot{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: hsl(223, 31%, 20%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px 10px;
+    
+    grid-auto-rows: minmax(auto, auto);
+}
+.btn{
+    background-color: hsl(0, 0%, 90%);
+    border: transparent;
+    border-radius: inherit;
+    color: hsl(225, 21%, 49%);
+    font-weight: 700;
+    font-size: 26px;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+#btn-reset{
+grid-column: 1 / 3;
+  grid-row: 5 ;
+  margin-right: 10px;
+  background-color: hsl(225, 21%, 49%);
+  color: white;
+}
+#btn-equals{
+    grid-column: 3 / 5;
+    grid-row: 5;
+    margin-left: 10px;
+    background-color: hsl(6, 63%, 50%);
+    color: white;
+}
+#btn-del{
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+}
+.calcfun{
+    text-align: end;
+}
+.theme{
+    background-color: hsl(223, 31%, 20%);
+    border: none;
+    color: white;
+    position: relative;
+    width:75px ;
+    height: 20px;
+    padding: 1px;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    top: 5px;
+
+}
+.TextTHEME{
+    display: inline-block;
+
+    font-size: 10px;
+    margin-right: 40px;
+}
+.redind{
+    background-color: hsl(6, 63%, 50%);
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+}
+.theme.start{
+    transition: 1s ease-out;
+    justify-content: start;
+    background-color: hsl(223, 31%, 20%);
+}
+
+
+
+
+.theme.mid{
+    transition: 0.5s ease-out;
+    justify-content: center;
+    background-color: hsl(0, 5%, 81%);
+}
+
+
+.theme.end{
+    transition: 1s ease-out;
+    justify-content: end;
+     background-color:  hsl(268, 71%, 12%);
+}
+
+@keyframes one {
+    0%{
+        background-color:hsl(222, 26%, 31%);
+    }
+    100%{
+        background-color: hsl(0, 0%, 90%);
+    }
+}
+
+@keyframes second {
+    0%{
+        background-color:hsl(0, 0%, 90%);
+    }
+    100%{
+        background-color: hsl(268, 75%, 9%);
+    }
+}
+@keyframes org {
+   
+    0%{
+        background-color: hsl(268, 75%, 9%);
+    }
+     100%{
+        background-color:hsl(222, 26%, 31%);
+    }
+}
