@@ -2,10 +2,15 @@
 A clean, responsive calculator web app built with React and Vite. Perform basic arithmetic operations with a simple, intuitive interface.
 
 <img width="326" height="600" alt="Screenshot 2026-05-29 215502" src="https://github.com/user-attachments/assets/8b4eb299-6339-4cf7-ba02-4261ca6d4f10" />
+
 <img width="351" height="570" alt="Screenshot 2026-05-29 215454" src="https://github.com/user-attachments/assets/6ff94ea4-7b4f-47da-9f71-a0f8c4d3859d" />
+
 <img width="330" height="568" alt="Screenshot 2026-05-29 215449" src="https://github.com/user-attachments/assets/87713157-fe0d-46f5-b68f-12714039c540" />
+
 <img width="1066" height="839" alt="Screenshot 2026-05-29 215438" src="https://github.com/user-attachments/assets/a7fabcde-1b88-42ba-8513-404cbbd360a8" />
+
 <img width="1016" height="871" alt="Screenshot 2026-05-29 215435" src="https://github.com/user-attachments/assets/e3c01e50-a0f6-4b81-968d-994ae27644bb" />
+
 <img width="1495" height="867" alt="Screenshot 2026-05-29 215430" src="https://github.com/user-attachments/assets/af6c7aeb-4bde-48fc-a47e-ab137c0d426f" />
 
 
@@ -84,4 +89,3 @@ Take a screenshot of your running app
 
 Save it as screenshot.png in your repository
 
-Link to it with: ![Calculator Demo](./screenshot.png)
