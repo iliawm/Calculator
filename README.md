@@ -1,6 +1,6 @@
 🧮 Calculator
 A clean, responsive calculator web app built with React and Vite. Perform basic arithmetic operations with a simple, intuitive interface.
-<div style={{ display: 'flex', flexDirection: 'column' }}>
+
 
 <img width="326" height="600" alt="Screenshot 2026-05-29 215502" src="https://github.com/user-attachments/assets/8b4eb299-6339-4cf7-ba02-4261ca6d4f10" />
 
@@ -13,7 +13,7 @@ A clean, responsive calculator web app built with React and Vite. Perform basic 
 <img width="1016" height="871" alt="Screenshot 2026-05-29 215435" src="https://github.com/user-attachments/assets/e3c01e50-a0f6-4b81-968d-994ae27644bb" />
 
 <img width="1495" height="867" alt="Screenshot 2026-05-29 215430" src="https://github.com/user-attachments/assets/af6c7aeb-4bde-48fc-a47e-ab137c0d426f" />
-</div>
+
 
 
 ✨ Features
