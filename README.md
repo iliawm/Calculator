@@ -1,5 +1,6 @@
 🧮 Calculator
 A clean, responsive calculator web app built with React and Vite. Perform basic arithmetic operations with a simple, intuitive interface.
+<div style={{ display: 'flex', flexDirection: 'column' }}>
 
 <img width="326" height="600" alt="Screenshot 2026-05-29 215502" src="https://github.com/user-attachments/assets/8b4eb299-6339-4cf7-ba02-4261ca6d4f10" />
 
@@ -12,7 +13,7 @@ A clean, responsive calculator web app built with React and Vite. Perform basic 
 <img width="1016" height="871" alt="Screenshot 2026-05-29 215435" src="https://github.com/user-attachments/assets/e3c01e50-a0f6-4b81-968d-994ae27644bb" />
 
 <img width="1495" height="867" alt="Screenshot 2026-05-29 215430" src="https://github.com/user-attachments/assets/af6c7aeb-4bde-48fc-a47e-ab137c0d426f" />
-
+</div>
 
 
 ✨ Features
@@ -63,7 +64,8 @@ Use C to clear everything or ⌫ to delete the last digit
 
 📁 Project Structure
 text
-![Uploading Screenshot 2026-05-29 220229.png…]()
+<img width="765" height="224" alt="Screenshot 2026-05-29 220229" src="https://github.com/user-attachments/assets/c95676be-c755-444a-846a-3a21b073a033" />
+
 
 🔧 Deployment
 This project is configured for deployment on Vercel. The included vercel.json ensures proper client-side routing.
