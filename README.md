@@ -63,17 +63,8 @@ Use C to clear everything or ⌫ to delete the last digit
 
 📁 Project Structure
 text
-Calculator/
-├── src/
-│   ├── comp/
-│   │   └── Calc.jsx      # Main calculator component
-│   ├── App.jsx           # Root component
-│   ├── App.css           # Global styles
-│   └── main.jsx          # Entry point
-├── index.html
-├── vite.config.js
-├── vercel.json           # Vercel routing config
-└── package.json
+![Uploading Screenshot 2026-05-29 220229.png…]()
+
 🔧 Deployment
 This project is configured for deployment on Vercel. The included vercel.json ensures proper client-side routing.
 
